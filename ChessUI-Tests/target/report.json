@@ -1,0 +1,227 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3700085783,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "I want to create a new entity",
+        "description": "",
+        "id": "create-entity;i-want-to-create-a-new-entity",
+        "after": [
+          {
+            "result": {
+              "duration": 108370065,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10478932306,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the website with URL \"https://google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://google.com\"",
+                  "offset": 29
+                }
+              ],
+              "location": "EntitySteps.iAmOnTheWebsiteWithURL(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web"
+          }
+        ]
+      }
+    ],
+    "name": "Create Entity",
+    "description": "",
+    "id": "create-entity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Create_Entity.feature",
+    "tags": [
+      {
+        "name": "@web",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Scenario Number One",
+        "description": "",
+        "id": "scenarios-feature-file;scenario-number-one",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1033021,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Step from \u0027Scenario 1\u0027 in \u0027scenarios\u0027 feature file",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Scenario 1\u0027",
+                  "offset": 10
+                },
+                {
+                  "val": "\u0027scenarios\u0027",
+                  "offset": 26
+                }
+              ],
+              "location": "EntitySteps.step(String,String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Scenario Number Two",
+        "description": "",
+        "id": "scenarios-feature-file;scenario-number-two",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 706939,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Step from \u0027Scenario 2\u0027 in \u0027scenarios\u0027 feature file",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Scenario 2\u0027",
+                  "offset": 10
+                },
+                {
+                  "val": "\u0027scenarios\u0027",
+                  "offset": 26
+                }
+              ],
+              "location": "EntitySteps.step(String,String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Scenarios feature file",
+    "description": "",
+    "id": "scenarios-feature-file",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/scenarios.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Scenario Outline Row 1",
+        "description": "",
+        "id": "scenario-outlines-feature-file;\u003cscen-out-row-num\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 893424,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Step from \u0027Scenario Outline Row 1\u0027 in \u0027scenario-outlines\u0027 feature file",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Scenario Outline Row 1\u0027",
+                  "offset": 10
+                },
+                {
+                  "val": "\u0027scenario-outlines\u0027",
+                  "offset": 38
+                }
+              ],
+              "location": "EntitySteps.step(String,String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Scenario Outline Row 2",
+        "description": "",
+        "id": "scenario-outlines-feature-file;\u003cscen-out-row-num\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 458050,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Step from \u0027Scenario Outline Row 2\u0027 in \u0027scenario-outlines\u0027 feature file",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Scenario Outline Row 2\u0027",
+                  "offset": 10
+                },
+                {
+                  "val": "\u0027scenario-outlines\u0027",
+                  "offset": 38
+                }
+              ],
+              "location": "EntitySteps.step(String,String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Scenario Outlines feature file",
+    "description": "",
+    "id": "scenario-outlines-feature-file",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/scenarios_outline.feature",
+    "tags": []
+  }
+]
